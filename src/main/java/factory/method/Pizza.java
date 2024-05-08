@@ -5,6 +5,7 @@ package factory.method;
  * 2024/5/7
  */
 public abstract class Pizza {
+    protected String name;
     public void prepare(){
         System.out.println("prepare");
     }
@@ -17,5 +18,12 @@ public abstract class Pizza {
 
     public void box() {
         System.out.println("box");
+    }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
