@@ -2,6 +2,7 @@ package factory.method;
 
 /**
  * @author yitiansong
+ * 工厂方法模式
  * 2024/5/8
  */
 public class Wing {
