@@ -1,4 +1,4 @@
-package factory.method;
+package tracks.factory.method;
 
 /**
  * @author yitiansong
