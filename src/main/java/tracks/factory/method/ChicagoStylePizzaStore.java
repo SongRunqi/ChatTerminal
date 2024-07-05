@@ -7,10 +7,12 @@ package tracks.factory.method;
 public class ChicagoStylePizzaStore extends PizzaStore {
     @Override
     Pizza createPizza(String type) {
-        return switch (type) {
-            case "A" -> new ChicagoStyleAPizza();
-            case "B" -> new ChicagoStyleBPizza();
-            default -> null;
-        };
+//        return switch (type) {
+//            case "A" -> new ChicagoStyleAPizza();
+//            case "B" -> new ChicagoStyleBPizza();
+//            default -> null;
+//        };
+        // for version problems
+        return null;
     }
 }

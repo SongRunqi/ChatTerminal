@@ -4,8 +4,7 @@ public class VeggieLoversPizzaBuilder extends PizzaBuilder {
 	public VeggieLoversPizzaBuilder() {
 		this.name = "Veggie Lovers Pizza";
 	}
-	@Override
-    public PizzaBuilder addCheese() {
+	public PizzaBuilder addCheese() {
 		// veggie lovers like parm
 		this.toppings.add("parmesan");
 		return this;
